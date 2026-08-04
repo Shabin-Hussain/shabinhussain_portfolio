@@ -1,0 +1,132 @@
+#main{
+  
+
+    height:100%;
+    width:100%;
+  
+
+     overflow:hidden; 
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#050816;
+    color:white;
+}
+
+.btn {
+    background: linear-gradient(135deg,#2563EB,#00D4FF);
+    color:white;
+    border:1px solid #3B82F6;
+     box-shadow:
+        0 0 10px rgba(0,212,255,.5),
+        0 0 25px rgba(37,99,235,.4); 
+}
+
+.fnt{
+    font-size: 70px;
+}
+
+.shb{
+     background: linear-gradient(to right, #00D4FF, #4F46E5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    /* Standard property (supported in newer browsers) */
+    background-clip: text;
+    color: transparent;
+}
+
+/* About section */
+
+.about{
+    min-height: 250px;
+}
+
+.skills{
+    min-height: 290px;
+}
+
+.exp{
+    min-height: 250px;
+}
+
+.pro{
+    min-height: 450px;
+}
+
+/* .crd{
+    height: 190px;
+}
+ */
+.crd{
+    min-height: 190px;
+    background: transparent !important;
+    border: 1px solid rgba(255,255,255,0.2); 
+
+    color: white;
+}
+
+.crd1{
+     background: transparent !important;
+    border: 1px solid rgba(255,255,255,0.2); 
+
+    color: white;
+}
+
+.bri{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.ftr{
+    min-height: 210px;
+}
+
+
+.hvr:hover{
+    color: #2563EB !important;
+
+}
+
+.rp1{
+    font-size: 35px;
+}
+
+/* responsive */
+
+@media(max-width:1200px){
+    .sz1{
+        font-size: 15px;
+    }
+
+    .sz2{
+        font-size: 5px;
+    }
+
+    .rp1{
+        font-size: 20px;
+    }
+
+    .bri{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+}
+
+@media(max-width:992px){
+    .sz1{
+        font-size: 12px;
+    }
+}
+
+
+
+
+

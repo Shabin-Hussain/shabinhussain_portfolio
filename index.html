@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shabin Hussain</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <!-- favicon -->
+     <link rel="icon" type="image/icon" href="./images/favicon.png">
+
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+        integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Three.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+
+    <!-- Vanta -->
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+
+
+</head>
+
+<body>
+    <div id="main">
+        <nav class="navbar navbar-expand-lg " id="hm">
+            <div class="container-fluid">
+                <a class="navbar-brand ms-5 text-light fs-3 me-5" href="#"><b>SHABIN HUSSAIN</b></a>
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item">
+                            <a class="nav-link active ms-5 text-light hvr" aria-current="page" href="#hm">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active ms-4 text-light hvr" aria-current="page" href="#abt">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active ms-4 text-light hvr" aria-current="page" href="#skl">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active ms-4 text-light hvr" aria-current="page" href="#prj">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active ms-4 text-light hvr" aria-current="page" href="#exp">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active ms-4 text-light me-5 hvr" aria-current="page" href="#edu">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <!--  <a class="nav-link active ms-5 text-light" aria-current="page" href="#">Download Resume</a> -->
+                           <a href="./resume/Resume.pdf" download> <button type="button" class="btn ms-2">Download Resume</button></a>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+        <div class="row ">
+            <div class="col-md-6  ps-5 pt-5">
+                <h5 class="ms-4">HI,THERE</h5>
+                <h1 class="ms-4">I'm</h1>
+                <h1 class="fnt shb ms-4">Shabin Hussain</h1>
+                <h2 class="ms-4">Web <span class="shb">Developer</span></h2>
+                <p class="ms-4">I build responsive ,user-friendly and modern <br>websites with clean code and great UI
+                </p>
+                <div class="row mt-4">
+                    <div class="col-md-2"></div>
+
+                    <div class="col-md-4">
+                        <button type="button" class="btn hvr" onclick="window.location.href='#prj'">View Works</button>
+                    </div>
+                    <div class="col-md-4">
+                        <button type="button" class="btn hvr" onclick="window.location.href='#abt'">Contact Me</button>
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-2 text-center">
+                        <a href="https://github.com/Shabin-Hussain" target="_blank"><i class="fa-brands fa-github fa-2x"></i></a>
+                    </div>
+                    <div class="col-md-2 text-center">
+                       <a href="https://www.linkedin.com/in/shabin-hussain-0015453b9" target="_blank"> <i class="fa-brands fa-linkedin fa-2x"></i></a>
+                    </div>
+                    <div class="col-md-2 text-center">
+                       <a href="mailto:shabinh180@gmail.com" > <i class="fa-brands fa-at fa-2x"></i></a>
+                    </div>
+                    <div class="col-md-3"></div>
+                </div>
+            </div>
+
+            <div class="col-md-6 ">
+                <img class="" width="650px" src="./images/image11.png" alt="image of a computer">
+            </div>
+        </div>
+
+        <!-- About section -->
+        <div class="container about border border-primary rounded shadow mt-5 p-3" id="abt">
+            <div class="row mt-3">
+                <div class="col-md-2">
+                    <h6 class="mt-2">ABOUT ME</h6>
+                    <!--  <h6>Let me introduce <span class="shb">myself</span></h6> -->
+                    <p class="sz1">I am a passionate <span class="shb">Web Developer</span> with a strong foundation in building
+                        responsive and visually
+                        appealing websites.</p>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="card  w-100 crd">
+                        <div class="card-body mt-4">
+                            <h5 class="card-title text-center">
+                                <i class="fa-solid fa-person fa-2x shb"></i>
+                            </h5>
+                            <h6 class="card-subtitle mb-2  text-center mt-2">Name</h6>
+                            <h6 class="card-subtitle mb-2  text-center mt-3">Shabin Hussain</h6>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="card w-100 crd">
+                        <div class="card-body mt-4">
+                            <h5 class="card-title text-center">
+
+                                <i class="fa-solid fa-graduation-cap fa-2x shb"></i>
+                            </h5>
+                            <h6 class="card-subtitle mb-2  text-center mt-2">Education</h6>
+                            <h6 class="card-subtitle mb-2  text-center mt-3">BTech cse</h6>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card w-100 crd">
+                        <div class="card-body mt-4">
+                            <h5 class="card-title text-center">
+
+                                <i class="fa-solid fa-phone fa-2x shb"></i>
+                            </h5>
+                            <h6 class="card-subtitle mb-2  text-center mt-2">Phone</h6>
+                           <a href="tel:+919961480337" target="_blank" class="text-decoration-none text-light"> <h6 class="card-subtitle mb-2  text-center mt-3 hvr">9961480337</h6></a>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card w-100 crd">
+                        <div class="card-body mt-4">
+                            <h5 class="card-title text-center">
+
+                                <i class="fa-solid fa-envelope fa-2x shb"></i>
+                            </h5>
+                            <h6 class="card-subtitle mb-2  text-center mt-2">Email</h6>
+                            <a href="mailto:shabinh180@gmail.com" target="_blank" class="text-decoration-none text-light"><h6 class="card-subtitle mb-2  text-center mt-3 hvr">shabinh180@gmail.com</h6></a>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card w-100 crd">
+                        <div class="card-body mt-4">
+                            <h5 class="card-title text-center">
+
+                                <i class="fa-solid fa-location-dot fa-2x shb"></i>
+                            </h5>
+                            <h6 class="card-subtitle mb-2  text-center mt-2">Location</h6>
+                           <a href="https://maps.app.goo.gl/hQBTGM7DDB68KyNd6" target="_blank" class="text-decoration-none"> <h6 class="card-subtitle  mb-2 text-light  text-center mt-3 hvr ">India</h6></a>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- skills -->
+
+        <div class="container skills border border-primary rounded shadow mt-5 p-3" id="skl">
+            <h5>MY SKILLS</h5>
+            <h6>Technologies I <span class="shb">work</span> with</h6>
+            <div class="row mt-3">
+                <div class="col-md-2">
+                    <div class="card  w-100 crd">
+                        <div class="card-body mt-4">
+                            <h5 class="card-title text-center">
+
+                                <i class="fa-brands fa-html5 fa-2x shb"></i>
+                            </h5>
+                            <h6 class="card-subtitle mb-2  text-center mt-2">HTML5</h6>
+                            <h6 class="card-subtitle mb-2  text-center mt-3">
+                                <i class="fa-solid fa-star shb"></i>
+                                <i class="fa-solid fa-star shb"></i>
+                                <i class="fa-solid fa-star shb"></i>
+                                <i class="fa-solid fa-star shb"></i>
+                                <i class="fa-solid fa-star shb"></i>
+                            </h6>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="card  w-100 crd">
+                        <div class="card-body mt-4">
+                            <h5 class="card-title text-center">
+
+                                <i class="fa-brands fa-css3-alt fa-2x shb"></i>
+                            </h5>
+                            <h6 class="card-subtitle mb-2  text-center mt-2">CSS3</h6>
+                            <h6 class="card-subtitle mb-2  text-center mt-3">
+                                <i class="fa-solid fa-star shb"></i>
+                                <i class="fa-solid fa-star shb"></i>
+                                <i class="fa-solid fa-star shb"></i>
+                                <i class="fa-solid fa-star shb"></i>
+                                <i class="fa-solid fa-star shb"></i>
+                            </h6>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="card w-100 crd">
+                        <div class="card-body mt-4">
+                            <h5 class="card-title text-center">
+                                <i class="fa-brands fa-bootstrap fa-2x shb"></i>
+
+                            </h5>
+                            <h6 class="card-subtitle mb-2  text-center mt-2">Bootstrap</h6>
+                            <h6 class="card-subtitle mb-2  text-center mt-3">
+                                <i class="fa-solid fa-star shb"></i>
+                                <i class="fa-solid fa-star shb"></i>
+                                <i class="fa-solid fa-star shb"></i>
+                                <i class="fa-solid fa-star shb"></i>
+                                <i class="fa-solid fa-star shb"></i>
+                            </h6>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card w-100 crd">
+                        <div class="card-body mt-4">
+                            <h5 class="card-title text-center">
+                                <i class="fa-brands fa-square-js fa-2x shb"></i>
+
+                            </h5>
+                            <h6 class="card-subtitle mb-2  text-center mt-2">Javascript</h6>
+                            <h6 class="card-subtitle mb-2  text-center mt-3">
+                                <i class="fa-solid fa-star shb"></i>
+                                <i class="fa-solid fa-star shb"></i>
+                                <i class="fa-solid fa-star shb"></i>
+                                <i class="fa-solid fa-star shb"></i>
+                                <i class="fa-solid fa-star shb"></i>
+                            </h6>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card w-100 crd">
+                        <div class="card-body mt-4">
+                            <h5 class="card-title text-center">
+                                <i class="fa-brands fa-git-alt fa-2x shb"></i>
+
+                            </h5>
+                            <h6 class="card-subtitle mb-2  text-center mt-2">Git</h6>
+                            <h6 class="card-subtitle mb-2  text-center mt-3">
+                                <i class="fa-solid fa-star shb"></i>
+                                <i class="fa-solid fa-star shb"></i>
+                                <i class="fa-solid fa-star shb"></i>
+                                <i class="fa-solid fa-star shb"></i>
+                                <i class="fa-solid fa-star shb"></i>
+                            </h6>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="card w-100 crd">
+                        <div class="card-body mt-4">
+                            <h5 class="card-title text-center">
+                                <i class="fa-brands fa-github fa-2x shb"></i>
+
+                            </h5>
+                            <h6 class="card-subtitle mb-2  text-center mt-2">GitHub</h6>
+                            <h6 class="card-subtitle mb-2  text-center mt-3">
+                                <i class="fa-solid fa-star shb"></i>
+                                <i class="fa-solid fa-star shb"></i>
+                                <i class="fa-solid fa-star shb"></i>
+                                <i class="fa-solid fa-star shb"></i>
+                                <i class="fa-solid fa-star shb"></i>
+                            </h6>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Projects -->
+
+        <div class="container pro border border-primary rounded shadow mt-5 p-3" id="prj">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>PROJECTS</h5>
+                </div>
+                <div class="col-md-6 d-flex justify-content-end">
+                    <button class="btn mt-2" onclick="window.open('https://github.com/Shabin-Hussain','_blank')">View More</button>
+                </div>
+            </div>
+            
+            <h6>Some things I've <span class="shb">built</span></h6>
+            <div class="row mt-3">
+                <div class="col-md-6">
+                    <div class="card crd1" style="width: 100%">
+                        <iframe src="https://serene-meringue-c5319e.netlify.app/" frameborder="0" height="150px"></iframe>
+                        <div class="card-body">
+                            <h5 class="card-title text-light">Tokyo Seafood Restaurant</h5>
+                            <p class="card-text text-light">A responsive restaurant website built using HTML and CSS.</p>
+                            <div>
+                                <i class="fa-brands fa-html5 fa-2x text-warning"></i>
+                                <i class="fa-brands fa-css3-alt fa-2x text-primary"></i>
+                            </div>
+                            <div>
+                                
+                            <a href="https://serene-meringue-c5319e.netlify.app/" target="_blank" class="card-link text-decoration-none">Live Demo</a>
+                            <a href="https://github.com/Shabin-Hussain/TokyoSeafoodRestaurant" target="_blank" class="card-link text-decoration-none">GitHub Link</a>
+                            </div>
+                        </div>
+                        
+                        
+                    
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card crd1" style="width: 100%">
+                          <iframe src="https://rad-panda-30e312.netlify.app/" frameborder="0" height="150px"></iframe> 
+                        <div class="card-body">
+                            <h5 class="card-title text-light">Journeyza Travel Website</h5>
+                            <p class="card-text text-light">A responsive travel website built using HTML , CSS and Bootstrap</p>
+                            <div>
+                                <i class="fa-brands fa-html5 fa-2x text-warning"></i>
+                                <i class="fa-brands fa-css3-alt fa-2x text-primary"></i>
+                                <i class="fa-brands fa-bootstrap fa-2x text-primary"></i>
+                            </div>
+                            <div>
+                                
+                            <a href="https://rad-panda-30e312.netlify.app/" target="_blank" class="card-link text-decoration-none">Live Demo</a>
+                            <a href="https://github.com/Shabin-Hussain/Journeyza" class="card-link text-decoration-none" target="_blank">GitHub Link</a>
+                            </div>
+                        </div>
+                        
+                        
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Experience -->
+         <div class="container exp border border-primary rounded shadow mt-5 p-3" id="exp">
+            <h5>EXPERIENCE</h5>
+            <h6>My <span class="shb">Journey</span></h6>  
+            <div class="row mt-4 ">
+                <div class="col-md-3">
+                    <div class="row">
+                        <div class="col-md-4 ">
+                            <div class="bri bg-light d-flex align-items-center justify-content-center btn rp1"> 
+                                <i class="fa-solid fa-briefcase"></i>
+                            </div>
+                          
+                        </div>
+                        <div class="col-md-8">
+                           <h6><b>Associate</b></h6>
+                           <h6>Randstad India Pvt Ltd</h6>
+                           <h6>April 2021 - October 2021</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                      <div class="row">
+                        <div class="col-md-4 ">
+                           <div class="bri bg-light d-flex align-items-center justify-content-center btn rp1"> 
+                                <i class="fa-solid fa-briefcase"></i>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                           <h6><b>Associate - CS Phone</b></h6>
+                           <h6>Sutherland Global Services Pvt Ltd</h6>
+                           <h6>October 2021 - August 2023</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                      <div class="row">
+                        <div class="col-md-4 ">
+                              <div class="bri bg-light d-flex align-items-center justify-content-center btn rp1"> 
+                                <i class="fa-solid fa-briefcase"></i>
+                            </div>
+                          
+                        </div>
+                        <div class="col-md-8">
+                           <h6><b>R&D Intern(MEARN Full Stack Development)</b></h6>
+                           <h6>Luminar Technohub</h6>
+                           <h6>August 2024 - September 2024</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                      <div class="row">
+                        <div class="col-md-4 ">
+                            <div class="bri bg-light d-flex align-items-center justify-content-center btn rp1"> 
+                                <i class="fa-solid fa-briefcase"></i>
+                            </div>
+                        
+                        </div>
+                        <div class="col-md-8">
+                           <h6><b>Web Developer Intern</b></h6>
+                           <h6>InAmigos Foundation</h6>
+                           <h6>04/07/2026 - 17/07/2026</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+
+        <!-- Education -->
+
+          <div class="container exp border border-primary rounded shadow mt-5 p-3" id="edu">
+            <h5>EDUCATION</h5>
+           <!--  <h6>My <span class="shb">Journey</span></h6>   -->
+            <div class="row mt-4">
+                <div class="col-md-3">
+                    <div class="row">
+                        <div class="col-md-4 ">
+                            <div class="  d-flex align-items-center justify-content-center "> 
+                                  <i class="fa-solid fa-graduation-cap fa-3x shb"></i>
+                            </div>
+                          
+                        </div>
+                        <div class="col-md-8">
+                           <h6><b>Winner's Public School, Karimannoor</b></h6>
+                           <h6>Tenth Level</h6>
+                           <h6>9.6(CGPA)</h6>
+                           <h6>2014</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                      <div class="row">
+                        <div class="col-md-4 ">
+                           <div class="  d-flex align-items-center justify-content-center "> 
+                                  <i class="fa-solid fa-graduation-cap fa-3x shb"></i>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                           <h6><b>St.Joseph's HSS , Karimannoor</b></h6>
+                           <h6>Higher Secondary(Computer Science)</h6>
+                           <h6>85.7%</h6>
+                           <h6>2014-2016</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                      <div class="row">
+                        <div class="col-md-4 ">
+                            <div class="  d-flex align-items-center justify-content-center "> 
+                                  <i class="fa-solid fa-graduation-cap fa-3x shb"></i>
+                            </div>  
+                          
+                        </div>
+                        <div class="col-md-8">
+                           <h6><b>Ilahia College of Engineering and Technology, Muvattupuzha</b></h6>
+                           <h6>BTECH - CSE</h6>
+                           <h6>7.78(CGPA)</h6>
+                           <h6>2016-2020</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                      <div class="row">
+                        <div class="col-md-4 ">
+                            <div class="  d-flex align-items-center justify-content-center "> 
+                                  <i class="fa-solid fa-graduation-cap fa-3x shb"></i>
+                            </div>
+                        
+                        </div>
+                        <div class="col-md-8">
+                           <h6><b>Luminary Technolab, Kakkanad</b></h6>
+                           <h6>MEARN Full Stack Web Development</h6>
+                           <h6>A+</h6>
+                           <h6>2024</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+
+        <!-- footer -->
+         <footer class="ftr mt-5 border-top border-primary">
+               <div class="row border-bottom border-primary">
+                     <div class="col-md-3">
+                         <h6 class=" mt-3 ms-1">GET IN TOUCH</h6>
+                         <h5 class="ms-1">Lets work <span class="shb">together</span></h5>
+                         <p class="ms-1">I am always open to discussing new projects , creative ideas or oppurtunities to be part of your vision.</p>
+                     </div>
+                     <div class="col-md-2 border border-primary">
+                        <div class="row mt-4">
+                            <div class="col-md-4">
+                                <a href="mailto:shabinh180@gmail.com" target="_blank">
+                                    <i class="fa-solid fa-envelope fa-2x shb"></i>
+                                </a>
+                            </div>
+                            <div class="col-md-8">
+                                <h6>Email</h6>
+                                <a href="mailto:shabinh180@gmail.com" target="_blank" class="text-decoration-none text-light hvr">
+                                    <h6>shabinh180 <br> @gmail.com</h6>
+                                </a>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="col-md-2 border border-primary">
+                         <div class="row mt-4 ">
+                            <div class="col-md-4 ">
+                             <a href="tel:+919961480337">   <i class="fa-solid fa-phone fa-2x shb"></i></a>
+                            </div>
+                            <div class="col-md-8">
+                                  <h6>Phone</h6>
+                              <a href="tel:+919961480337" class="text-light text-decoration-none hvr">
+                                  
+                                    <h6>9961480337</h6>
+                              </a>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="col-md-2 border border-primary">
+                         <div class="row mt-4">
+                            <div class="col-md-4 ">
+                               <a href="https://maps.app.goo.gl/hQBTGM7DDB68KyNd6" target="_blank"> <i class="fa-solid fa-location fa-2x shb"></i></a>
+                            </div>
+                            <div class="col-md-8">
+                                  <h6>Location</h6>
+                               <a href="https://maps.app.goo.gl/hQBTGM7DDB68KyNd6" class="text-decoration-none text-light hvr" target="_blank">
+                                  
+                                    <h6>India</h6>
+                               </a>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="col-md-3 border border-primary">
+                         <div class="row mt-4">
+                            <h6 class="text-center">Follow Me</h6>
+                            <div class="row">
+                                <div class="col-md-4"></div>
+                                <div class="col-md-3 ">
+                                   <a type="button" href="https://www.linkedin.com/in/shabin-hussain-0015453b9" target="_blank"> <i class="fa-brands fa-linkedin fa-2x shb text-center"></i> </a>
+                                </div>
+                                <div class="col-md-4 ">
+                                    <a type="button" href="https://github.com/Shabin-Hussain" target="_blank"><i class="fa-brands fa-github fa-2x shb text-center"></i></a>
+                                </div>
+                                <div class="col-md-2"></div>
+                            </div>
+                        </div>
+                     </div>
+               </div>
+             
+                <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                           <p class="text-center mt-2 shb">©2026 Shabin Hussain.All rights reserved.</p> 
+                    </div>
+                    <div class="col-md-4 text-end mt-2">
+                      <a href="#hm">  <i class="fa-solid fa-circle-arrow-up fa-2x shb"></i></a>
+                    </div>
+                </div>
+         </footer>
+
+    </div>
+
+
+
+
+</body>
+
+<script src="./script.js"></script>
+
+</html>
