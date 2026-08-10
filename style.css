@@ -126,6 +126,18 @@ body{
     }
 }
 
+@media(max-width:960px){
+    .si{
+        font-size: 12px;
+    }
+}
+
+@media(max-width:768px){
+    .nm{
+        margin-left: 28px;
+    }
+}
+
 
 
 
