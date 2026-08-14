@@ -136,6 +136,46 @@ body{
     .nm{
         margin-left: 28px;
     }
+
+    .mrg1{
+        margin-top: 10px;
+    }
+}
+
+.mrg{
+    margin-left: 40px;
+}
+
+.mrg2{
+    width: 650px;
+}
+
+@media(max-width:580px){
+
+    .mrg{
+    margin-left: 0px;
+}
+
+.mrg2{
+    width: 460px;
+}
+
+}
+
+@media(max-width:450px){
+    .mrg2{
+    width: 350px;
+}
+
+ .mrg3{
+        
+        margin-left: -20px;
+    }
+
+    .mrg4{
+        margin-left: -5px;
+    }
+
 }
 
 
